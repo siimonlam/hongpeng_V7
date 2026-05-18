@@ -1,6 +1,8 @@
 import { MapPin, CheckCircle, Building2, Users, Ruler, ShieldCheck, Phone, Mail, User, TrendingUp, Smartphone } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
+const STORAGE_BASE = 'https://wdrkkpdjdqckkkxzpijs.supabase.co/storage/v1/object/public/hongpeng';
+
 export function FacilityDongguanPage() {
   const { dictionary } = useLanguage();
   const { facilityDongguan: f } = dictionary;
@@ -40,6 +42,28 @@ export function FacilityDongguanPage() {
           </div>
           <h1 className="text-4xl lg:text-5xl font-extrabold tracking-tight mb-4">{f.title}</h1>
           <p className="text-xl text-gray-300 font-light max-w-2xl">{f.subtitle}</p>
+        </div>
+      </section>
+
+      {/* Facility Photos */}
+      <section className="bg-white py-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="relative overflow-hidden rounded-lg aspect-[16/9]">
+              <img
+                src={`${STORAGE_BASE}/china_1`}
+                alt="Dongguan factory interior"
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+              />
+            </div>
+            <div className="relative overflow-hidden rounded-lg aspect-[16/9]">
+              <img
+                src={`${STORAGE_BASE}/china_2`}
+                alt="Dongguan factory production floor"
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
