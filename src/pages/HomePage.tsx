@@ -170,7 +170,7 @@ export function HomePage() {
                 <div className="group w-[140px] sm:w-[150px] overflow-hidden rounded-lg bg-white shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
                   <div className="aspect-square relative overflow-hidden">
                     <img
-                      src={`${STORAGE_BASE}/china_flow_${step}.jpg`}
+                      src={`${STORAGE_BASE}/china_flow_${step}.png`}
                       alt={language === 'zh' ? zh : en}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     />
