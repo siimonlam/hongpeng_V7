@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, Award, Users, Factory, Globe } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
-const STORAGE_BASE = 'https://wdrkkpdjdqckkkxzpijs.supabase.co/storage/v1/object/public/hongpeng';
+const STORAGE_BASE = 'https://liqbuhtnlclwwilrvpgs.supabase.co/storage/v1/object/public/hongpeng';
 
 const workflowSteps = [
   { step: 1, label: 'Knitting' },

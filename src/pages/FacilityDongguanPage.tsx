@@ -1,7 +1,7 @@
 import { MapPin, CheckCircle, Building2, Users, Ruler, ShieldCheck, Phone, Mail, User, TrendingUp, Smartphone } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
-const STORAGE_BASE = 'https://wdrkkpdjdqckkkxzpijs.supabase.co/storage/v1/object/public/hongpeng';
+const STORAGE_BASE = 'https://liqbuhtnlclwwilrvpgs.supabase.co/storage/v1/object/public/hongpeng';
 
 export function FacilityDongguanPage() {
   const { dictionary } = useLanguage();
