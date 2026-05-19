@@ -51,14 +51,14 @@ export function FacilityDongguanPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="relative overflow-hidden rounded-lg aspect-[16/9]">
               <img
-                src={`${STORAGE_BASE}/china_1`}
+                src={`${STORAGE_BASE}/china_1.png`}
                 alt="Dongguan factory interior"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
               />
             </div>
             <div className="relative overflow-hidden rounded-lg aspect-[16/9]">
               <img
-                src={`${STORAGE_BASE}/china_2`}
+                src={`${STORAGE_BASE}/china_2.png`}
                 alt="Dongguan factory production floor"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
               />
